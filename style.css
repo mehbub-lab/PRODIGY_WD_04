@@ -1,0 +1,197 @@
+*{
+    background-color: rgb(249, 241, 241); 
+    margin: 0; 
+    scroll-behavior: smooth;
+  }
+  
+  #logo{
+      height: 100px;
+      width: 150px;
+      margin: 3px;
+      margin-left: 40px;
+  }
+  
+  .navbar{
+      display: flex;
+      
+      
+  }
+  
+  .navicons{
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: 700px;
+      font-size: 30px;  
+  }
+  
+  .middlebody{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      font-size: 1.5rem;
+      margin-top: 100px;
+      padding-left: 100px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+  .waviy span {
+  font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    display: inline-block;
+    color: #060606;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  
+  .mainbody{
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      margin-top: 50px;
+      padding-right: 40px;
+      padding-left: 20px;
+  }
+  
+  #text{
+      font-size: 2rem;
+      padding: 280px ;
+      justify-items: right;
+  }
+  
+  .Projectstag{
+      text-align: center;
+      font-size: 1.5rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(0, 255, 255);
+  }
+  
+  .projects{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+  }
+  
+  .box1{
+      font-size: 1.5rem;
+  }
+  
+  .box2{
+      font-size: 1.5rem;
+  }
+  
+  .Tic-tac-toe{
+      border: 5px solid;
+      margin-left: 90px;
+      margin-right: 90px;
+      border-radius: 5px;
+      padding: 5px;
+      box-shadow: 5px 5px  5px gray;
+      
+      
+  }
+  
+  .stopwatch{
+      border: 5px solid;
+      margin-left: 90px;
+      margin-right: 90px;
+      border-radius: 5px;
+      padding: 5px;
+      box-shadow: 5px 5px 5px gray;
+  }
+  
+  #text1{
+      text-decoration: none;
+  }
+  
+  .contact-section{
+      height: 473px;
+      position: relative;
+      top: 300px;
+      background-color: rgb(224,224,224);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+  
+  .heading1{
+      padding: 10px;
+      margin-bottom: 55px;
+      background-color: rgb(224,224,224);
+      
+      
+  }
+  
+  .heading2{
+      margin-bottom: 30px;
+      background-color: rgb(224,224,224);
+      color: black;
+  }
+  
+  .heading3{
+      background-color: rgb(224,224,224);
+      margin-bottom: 40px;
+  }
+  
+  #mail{
+      padding: 8px;
+      background-color: whitesmoke;
+      font-size: 30px;
+      border: 2px solid black;
+      border-radius: 30px;
+  }
+  
+  .social{
+      background-color: rgb(224,224,224);
+      font-size: 30px;;
+      margin-top: 10px;
+      padding: 10px;
+      display: flex;
+  }
+  
+  .linked-in{
+      background-color: rgb(224,224,224);
+      padding: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .github{
+      background-color: rgb(224,224,224);
+      padding: 20px;
+  }
+  
+  .copyright{
+      background-color:rgb(224,224,224); 
+      display: flex;
+      align-items: center;
+      padding: 10px;
+  }
+  
+  #sym{
+      background-color: rgb(224,224,224);
+      padding: 10px;
+  }
